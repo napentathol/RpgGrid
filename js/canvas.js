@@ -270,8 +270,6 @@ if(angular.isUndefined(rpg)) {
                 canvasDrawColor=color;
             },
             updateWidth : function(drawWidth) {
-                console.log(drawWidth);
-
                 canvasDrawWidth = drawWidth;
             }
         };
