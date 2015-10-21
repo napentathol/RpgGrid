@@ -1,0 +1,17 @@
+.draw-layer {
+    z-index: 1;
+}
+
+.grid-layer {
+    z-index: 2;
+}
+
+.tokn-layer {
+    z-index: 3;
+}
+
+.canvas-container canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
